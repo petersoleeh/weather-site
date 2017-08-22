@@ -23,13 +23,73 @@ var weatherDescription = new String(weather_data.weather[0].description)
 
 //frontend
 $.get({
-  url: 'http://api.openweathermap.org/data/2.5/weather?q=Nairobi&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+  url: 'http://api.openweathermap.org/data/2.5/weather?q=london&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
   success: function(weather_data){
     to_be_run_on_server_response(weather_data)
   }
+
 });
 
 
-// $(document).ready(function() {
-//   $("form#search").submit(function(event) {
-//       event.preventDefault();
+
+ // $(document).ready(function() {
+ //   $('#city1').click(function(event)) {
+ //     event.preventDefault();
+ //     $('.clearField').empty();
+ //
+ //     $.get({
+ //       url: 'http://api.openweathermap.org/data/2.5/weather?q=Daressalaam&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+ //       success: function(weather_data){
+ //         to_be_run_on_server_response(weather_data)
+ //       }
+ //     }
+ //   }
+ // });
+ //
+ // $(document).ready(function() {
+ //    $ ('#city2').click(function(event)) {
+ //    event.preventDefault();
+ //    $('.clearField').empty();
+ //
+ //      $.get({
+ //        url: 'http://api.openweathermap.org/data/2.5/weather?q=Kampala&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+ //         success: function(weather_data){
+ //          to_be_run_on_server_response(weather_data)
+ //     }
+ //   });
+ //
+ //   $(document).ready(function() {
+ //    $ ('#city3').click(function(event)) {
+ //      event.preventDefault();
+ //       $('.clearField').empty();
+ //
+ //        $.get({
+ //           url: 'http://api.openweathermap.org/data/2.5/weather?q=Kigali&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+ //           success: function(weather_data){
+ //             to_be_run_on_server_response(weather_data)
+ //      }
+ //     });
+ //
+ //   $(document).ready(function() {
+ //    $ ('#city4').click(function(event)) {
+ //       event.preventDefault();
+ //      $('.clearField').empty();
+ //
+ //         $.get({
+ //           url: 'http://api.openweathermap.org/data/2.5/weather?q=Johannesburg&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+ //           success: function(weather_data){
+ //             to_be_run_on_server_response(weather_data)
+ //      }
+ //    });
+ //
+ //     $(document).ready(function() {
+ //       $ ('#city5').click(function(event)) {
+ //        event.preventDefault();
+ //        $('.clearField').empty();
+ //
+ //          $.get({
+ //            url: 'http://api.openweathermap.org/data/2.5/weather?q=AddisAbaba&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+ //            success: function(weather_data){
+ //              to_be_run_on_server_response(weather_data)
+ //         }
+ //      });
