@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('.clearField').empty();
     alert("The data for Nairobi is currently being fetched");
     $.get({
-      url: 'http://api.openweathermap.org/data/2.5/weather?q=Nairobi&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+      url: 'https://api.openweathermap.org/data/2.5/weather?q=Nairobi&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
       success: function(weather_data){
         to_be_run_on_server_response(weather_data);
       }
@@ -44,7 +44,7 @@ $('#city2').click(function(event) {
   $('.clearField').empty();
   alert("The data for Dar es salaam is currently being fetched");
   $.get({
-    url: 'http://api.openweathermap.org/data/2.5/weather?q=Daressalaam&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+    url: 'https://api.openweathermap.org/data/2.5/weather?q=Daressalaam&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
     success: function(weather_data){
       to_be_run_on_server_response(weather_data);
     }
@@ -56,7 +56,7 @@ $('#city2').click(function(event) {
     $('.clearField').empty();
     alert("The data for Kampala is currently being fetched");
     $.get({
-      url: 'http://api.openweathermap.org/data/2.5/weather?q=kampala&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+      url: 'https://api.openweathermap.org/data/2.5/weather?q=kampala&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
       success: function(weather_data){
         to_be_run_on_server_response(weather_data);
       }
@@ -67,7 +67,7 @@ $('#city2').click(function(event) {
       $('.clearField').empty();
       alert("The data for Kigali is currently being fetched");
       $.get({
-        url: 'http://api.openweathermap.org/data/2.5/weather?q=kigali&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+        url: 'https://api.openweathermap.org/data/2.5/weather?q=kigali&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
         success: function(weather_data){
           to_be_run_on_server_response(weather_data);
         }
@@ -80,7 +80,7 @@ $('#city2').click(function(event) {
         $('.clearField').empty();
         alert("The data for Johanesburg is currently being fetched");
         $.get({
-          url: 'http://api.openweathermap.org/data/2.5/weather?q=johanesburg&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+          url: 'https://api.openweathermap.org/data/2.5/weather?q=johanesburg&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
           success: function(weather_data){
             to_be_run_on_server_response(weather_data);
           }
@@ -92,7 +92,7 @@ $('#city2').click(function(event) {
           $('.clearField').empty();
           alert("The data for Addis Ababa is currently being fetched");
           $.get({
-            url: 'http://api.openweathermap.org/data/2.5/weather?q=addisababa&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
+            url: 'https://api.openweathermap.org/data/2.5/weather?q=addisababa&mode=json&units=imperial&APPID=248a7533aec9546a0b5f48951b31e33a',
             success: function(weather_data){
               to_be_run_on_server_response(weather_data);
             }
