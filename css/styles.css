@@ -1,4 +1,4 @@
-body{
+/*body{
   background-attachment: fixed;
   background-image: url("../images/image3.png");
   background-repeat: no-repeat;
@@ -14,3 +14,7 @@ body{
 .jumbotron{
   text-align: center;
 }
+
+input{
+  color: black;
+}*/
